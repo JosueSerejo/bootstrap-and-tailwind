@@ -1,0 +1,24 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosueSerejo/estudos-tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosueSerejo/estudos-tailwind/issues"
+  },
+  "homepage": "https://github.com/JosueSerejo/estudos-tailwind#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^4.1.16"
+  }
+}
